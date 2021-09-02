@@ -18,9 +18,8 @@ header{
 }
 .ul_menu{
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 15px;
     padding: 8px;
 }
 .ul_menu>li{
@@ -38,14 +37,14 @@ header{
 
 }
 .div_ion{
-    width: 45%;
+    width: 40%;
     font-size: 20px;
     padding: 8px;
     align-self: center;
     cursor: pointer;
 }
 .div_menu{
-    width: 45%;
+    width: 53%;
 }
 .div_background{
         display: flex;
@@ -92,29 +91,29 @@ h1{
 .div_btn{
     margin-top: 30px;
     display: flex;
-    justify-content: space-around;
-    width: 500px;
+    justify-content: center;
+    width: 100%;
     align-self: center;
 
 }
 .btn_signup{
-    width: 230px;
-    height: 50px;
+    padding: 14px 50px;
     background-color: #629dd1e8;
     color: white;
     border: 1px solid transparent;
     outline: none;
+    margin-right: 5px;
     border-radius: 6px;
     font-size: 19px;
     letter-spacing: 0.125em;
 }
 .btn_learn{
-    width: 230px;
-    height: 50px;
+    padding: 14px 25px;
     background-color: transparent;
     color: white;
     border: 1px solid white;
     outline: none;
+    margin-left: 5px;
     border-radius: 6px;
     font-size: 19px;
     letter-spacing: 0.125em;
@@ -164,8 +163,9 @@ h2{
 }
 
 .div_ipsum2>div{
-    width: 360px;
-    height: 370px;
+    width: 33%;
+    padding: 50px 0;
+    line-height: 100px;
     border: 1px solid #666f7745;
 }
 
@@ -237,6 +237,7 @@ h2{
     text-align: center;
     color: #666f77;
     line-height: 30px;
+    padding: 0 40px;
 }
 
 .div_icon1::before {
@@ -271,10 +272,10 @@ h2{
    
 }
 .div_pic_1{
-    width: 570px;
+    width: 47%;
 }
 .div_pic_2{
-    width: 570px;
+    width: 47%;
 }
 .h4_pics{
     font-size: 1.25em;
@@ -410,6 +411,10 @@ footer{
     text-decoration: underline;
     color: #666f77;
 }
+.ul_accumsan>li:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .h4_faucibus{
     font-size: 1.25em;
@@ -424,6 +429,10 @@ footer{
     padding-top: 10px;
     text-decoration: underline;
     color: #666f77;
+}
+.ul_faucibus>li:hover{
+    cursor: pointer;
+    text-decoration: none;
 }
 .h3_aliquam{
     font-size: 1.25em;
@@ -444,6 +453,9 @@ footer{
     font-size: 30px;
     color: #a5a0a0;
     justify-content: space-between;
+}
+.div_icons>i{
+    cursor: pointer;
 }
 .div_footer_p{
     display: flex;
@@ -468,6 +480,7 @@ footer{
 .div_footer_p>p:nth-child(3){
     border-right: 1px solid #beb9b9;
 }
+
 
 @media (max-width:980px){
     header{
